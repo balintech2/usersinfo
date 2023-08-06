@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <html>
-<?php
-include "init.php";
-
-?>
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,110 +12,7 @@ include "init.php";
 </head>
 
 <body>
-  <div id="mySidenav" class="sidenav">
-    <?php
-    if (isset($user_acount)) {
-
-      echo "<div id='username'>Hi $user_acount </div>";
-      echo "<hr>";
-    }
-    ?>
-    <a href="#" class="closebtn">&times;</a>
-    <a href="index.php">HOME</a>
-    <?php
-    if (isset($user_acount)) {
-      echo "<a href='Logout.php'>LOGOUT</a>";
-    } else {
-      echo "<a href='Login.php'>LOGIN</a>";
-    }
-    ?>
-    <a href="About.php">ABOUT</a>
-    <hr>
-    <a href="Managment.html">Managment</a>
-    <a href="Informatics.html">Informatics</a>
-    <a href="Engineering.html">Engineering</a>
-    <a href="Logistic.html">Logistic</a>
-    <a href="Production.html">Production</a>
-    <a href="Official.html">Official</a>
-    <a href="EquipmentProduction.html">EquipmentProduction</a>
-    <a href="Quallity.html">Quallity</a>
-    <a href="all.html">All</a>
-
-
-
-  </div>
-
-
-
-
-
-
-  <div id="main">
-
-    <span id="menubtn" style="font-size:25px;cursor:pointer">&#9776; MENU</span>
-  </div>
-
-
-
-  <div class="tableBTM">
-
-    <a href="Managment.php">
-      <div class="buttonMAIN">
-        <p>MANAGEMENT</p>
-      </div>
-    </a>
-
-    <a href="Informatics.php">
-      <div class="buttonMAIN">
-        <p>INFORMATICS</p>
-      </div>
-    </a>
-
-    <a href="Engineering.php">
-      <div class="buttonMAIN">
-        <p>ENGINEERING</p>
-      </div>
-    </a>
-
-    <div class="buttonMAIN">
-      <a href="Logistic.php">
-        <p>LOGISTIC</p>
-      </a>
-    </div>
-    <a href="Quallity.php">
-      <div class="buttonMAIN">
-        <p>QUALLITY</p>
-      </div>
-    </a>
-    <a href="Production.php">
-      <div class="buttonMAIN">
-        <p>PRODUCTION</p>
-      </div>
-    </a>
-
-    <a href="Official.php">
-      <div class="buttonMAIN">
-        <p>OFFICIAL</p>
-      </div>
-    </a>
-
-    <a href="EquipmentProduction.php">
-      <div class="buttonMAIN">
-        <p>EQUIPMENT PRODCTION</p>
-      </div>
-    </a>
-
-    <a href="All.php">
-      <div class="buttonMAIN">
-        <p>ALL</p>
-      </div>
-    </a>
-
-  </div>
-
-
-
-  <script src="js/app.js"></script>
+  <h1>This is Test</h1>
 </body>
 
 </html>
